@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">uTrackpad</string>
+
+    <string name="dummy_button">Connect</string>
+    <string name="dummy_content">Use this area as a trackpad</string>
+    <string name="button_mouse_on">ON</string>
+    <string name="button_mouse_off">OFF</string>
+</resources>
