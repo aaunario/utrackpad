@@ -5,7 +5,6 @@ class DesktopEnvironment(object):
 
     INPUT_POINTER_PUSHMOD = 20
     _isActive = True
-    screenSize = None
     callback = None
     gui = pyautogui
 
@@ -20,6 +19,7 @@ class DesktopEnvironment(object):
 
     def init(self, *args, **kwargs):
         self.gui.PAUSE = 0.0
+        self.gui.FAILSAFE = False
         pass
 
     def onInput(self, data, callback):
