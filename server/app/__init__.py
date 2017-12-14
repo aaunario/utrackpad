@@ -1,4 +1,4 @@
-from app.TrackpadServer import TrackpadServer
+from TrackpadServer import TrackpadServer
 
 def main():
     tpServer = TrackpadServer()
